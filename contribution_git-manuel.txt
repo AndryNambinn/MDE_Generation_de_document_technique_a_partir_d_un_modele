@@ -1,0 +1,15 @@
+configuration: 
+* git config --global user.name "Ton Nom"
+* git config --global user.email "ton-email@example.com"
+
+pour initialiser le projet (créer un repertoire workspace et):
+* git clone https://github.com/AndryNambinn/MDE_Generation_de_document_technique_a_partir_d_un_modele.git
+* git remote add origin https://github.com/AndryNambinn/MDE_Generation_de_document_technique_a_partir_d_un_modele.git
+pour faire du mis à jour apres vos modif:
+* git add . 
+* git commit -m "[la modif que vous vouler mentionné ]"
+* git push origin main
+
+pour telecharger le nouveau modification : 
+
+* git pull origin main
